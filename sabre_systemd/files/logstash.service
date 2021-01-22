@@ -1,0 +1,9 @@
+[Unit]
+Description=logstash
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/logstash
+
+[Install]
+WantedBy=multi-user.target
