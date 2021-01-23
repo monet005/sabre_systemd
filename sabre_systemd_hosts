@@ -1,11 +1,11 @@
 
 [jenkins]
-pi-1	 systemd_enabled=true
-pi-2	 systemd_enabled=true
-pi-3	 systemd_enabled=true
+pi-1	 systemd=enable
+pi-2	 systemd=enable
+pi-3	 systemd=enable
 
 [kibana]
-pi-2	 systemd_enabled=false
+pi-2	 systemd=disable
 
 [logstash]
-pi-2	 systemd_enabled=true
+pi-2	 systemd=enable

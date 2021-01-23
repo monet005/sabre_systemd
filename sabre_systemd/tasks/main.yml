@@ -1,2 +1,7 @@
 ---
 # tasks file for sabre_systemd
+- debug: msg="creating systemd file for {{ ansible_nodename }}"
+  when: systemd == "enable"
+
+- debug: msg="deleting systemd file for {{ ansible_nodename }}"
+  when: systemd == "disable"

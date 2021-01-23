@@ -1,0 +1,8 @@
+- hosts: all
+  become: true
+
+  tasks:
+    - name: Sabre systemd tasks
+      include_role:
+        name: sabre_systemd
+      tags: systemd
