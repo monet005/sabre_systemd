@@ -2,7 +2,7 @@
   become: true
 
   tasks:
-    - name: Sabre systemd tasks
+    - name: Running sabre_systemd role
       include_role:
         name: sabre_systemd
       tags: systemd
