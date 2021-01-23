@@ -1,0 +1,13 @@
+
+[jenkins]
+
+[jenkins]
+pi-1	 systemd_enabled=true
+pi-2	 systemd_enabled=true
+pi-3	 systemd_enabled=true
+
+[kibana]
+pi-2	 systemd_enabled=false
+
+[logstash]
+pi-2	 systemd_enabled=true
