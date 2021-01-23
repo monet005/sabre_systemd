@@ -1,5 +1,4 @@
 ---
 # tasks file for sabre_systemd
-- debug:
-    var: hostvars[ansible_hostname]['logstash']
+
 
