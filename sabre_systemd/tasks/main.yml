@@ -1,5 +1,5 @@
 ---
 # tasks file for sabre_systemd
-- debug: msg="{{ systemd }}"
+- debug: msg="{{ hostvars }}"
 
 
