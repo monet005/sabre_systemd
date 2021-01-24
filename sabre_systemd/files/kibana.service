@@ -7,7 +7,7 @@ ConditionFileNotEmpty=/etc/consul.d/consul.hcl
 
 [Service]
 Type=notify
-User=sabuser
+User=root
 Group=sabuser
 ExecStart=/usr/bin/kibana
 ExecReload=/bin/kill --signal HUP $MAINPID
