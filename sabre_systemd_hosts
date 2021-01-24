@@ -3,6 +3,3 @@
 pi-1	 systemd=enable
 pi-2	 systemd=enable
 pi-3	 systemd=enable
-
-[kibana]
-pi-2	 systemd=disable
