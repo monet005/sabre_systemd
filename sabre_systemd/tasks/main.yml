@@ -1,9 +1,6 @@
 ---
 # tasks file for sabre_systemd
 - debug:
-    msg: "{{ group_names }}"
-
-- debug:
-    var: hostvars[inventory_hostname]
+    msg: "{{ ansible_host }}"
 
 
