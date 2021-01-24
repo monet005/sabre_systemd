@@ -1,6 +1,6 @@
 ---
 # tasks file for sabre_systemd
 - debug:
-    msg: "{{ ansible_host }}"
+    msg: "{{ systemd }}"
 
 
